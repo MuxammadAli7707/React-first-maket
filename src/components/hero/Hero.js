@@ -8,61 +8,61 @@ import heroBoy from '../../imgs/boy.png';
 import heroBoyTwo from '../../imgs/boy2.png';
 function Hero () {
   return (
-    <div class="site-inner">
-      <div class="container">
-        <div class="row middle between">
-          <div class="heroimg-box">
-            <img class="hero-img" src={heroImg} alt="sinauw" width="650" height="600" />
-            <div class="anime-img">
-              <img class="lamp" src={heroLamp} alt="lamp" width="90" height="90" />
-              <img class="whistle" src={heroWhistle} alt="whistle" width="90" height="90" />
+    <div className="site-inner">
+      <div className="container">
+        <div className="row middle between">
+          <div className="heroimg-box">
+            <img className="hero-img" src={heroImg} alt="sinauw" width="650" height="600" />
+            <div className="anime-img">
+              <img className="lamp" src={heroLamp} alt="lamp" width="90" height="90" />
+              <img className="whistle" src={heroWhistle} alt="whistle" width="90" height="90" />
             </div>
-            <div class="student-box">
-              <ul class="student-list row middle">
-                <li class="student-item">
-                  <img class="student-img" src={heroElli} alt="elli" width="52" height="52" />
+            <div className="student-box">
+              <ul className="student-list row middle">
+                <li className="student-item">
+                  <img className="student-img" src={heroElli} alt="elli" width="52" height="52" />
                 </li>
-                <li class="student-item">
-                  <img class="student-img-s" src={heroEllp} alt="ellp" width="52" height="52" />
+                <li className="student-item">
+                  <img className="student-img-s" src={heroEllp} alt="ellp" width="52" height="52" />
                 </li>
-                <li class="student-item">
-                  <img class="student-img-t" src={heroBoy} alt="boy" width="52" height="52" />
+                <li className="student-item">
+                  <img className="student-img-t" src={heroBoy} alt="boy" width="52" height="52" />
                 </li>
-                <li class="student-item">
-                <img class="student-img-f" src={heroBoyTwo} alt="boy2" width="52" height="52" />
+                <li className="student-item">
+                <img className="student-img-f" src={heroBoyTwo} alt="boy2" width="52" height="52" />
                 </li>
-                <button class="plus-btn">+</button>
-                <p class="student-text">More than 80k+
-                  Students <span class="join">joined!</span></p>
+                <button className="plus-btn">+</button>
+                <p className="student-text">More than 80k+
+                  Students <span className="join">joined!</span></p>
                 </ul>
               </div>
             </div>
-          <div class="site-info">
-            <h2 class="hero-title">Grow Your Skills To Advance Your Career Path.</h2>
-            <p class="hero-text">We have something big for you who want to level up!</p>
-            <div class="input-box row middle between">
-              <input class="input-text" type="text" id="text" placeholder="What do you want to learn..." />
-              <i class='bx bx-search'></i>
+          <div className="site-info">
+            <h2 className="hero-title">Grow Your Skills To Advance Your Career Path.</h2>
+            <p className="hero-text">We have something big for you who want to level up!</p>
+            <div className="input-box row middle between">
+              <input className="input-text" type="text" id="text" placeholder="What do you want to learn..." />
+              <i className='bx bx-search'></i>
             </div>
-            <p class="link-text">Suggestions</p>
-            <ul class="link-list row between">
-              <li class="link-item">
-                <a class="links" href="#">UI UX Design</a>
+            <p className="link-text">Suggestions</p>
+            <ul className="link-list row between">
+              <li className="link-item">
+                <a className="links" href="#">UI UX Design</a>
               </li>
-              <li class="link-item">
-                <a class="links" href="#">CSS Fundamental</a>
+              <li className="link-item">
+                <a className="links" href="#">CSS Fundamental</a>
               </li>
-              <li class="link-item">
-                <a class="links" href="#">3D Design Illustration</a>
+              <li className="link-item">
+                <a className="links" href="#">3D Design Illustration</a>
               </li>
-              <li class="link-item">
-                <a class="links" href="#">Website Development</a>
+              <li className="link-item">
+                <a className="links" href="#">Website Development</a>
               </li>
-              <li class="link-item">
-                <a class="links" href="#">Logo Design</a>
+              <li className="link-item">
+                <a className="links" href="#">Logo Design</a>
               </li>
-              <li class="link-item">
-                <a class="links" href="#">Icon Design</a>
+              <li className="link-item">
+                <a className="links" href="#">Icon Design</a>
               </li>
             </ul>
           </div>
