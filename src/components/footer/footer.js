@@ -1,5 +1,6 @@
 import './footer.css';
 import Logo from '../../imgs/sinauw.svg';
+
 function Footer () {
   return (
     <div className="container">
