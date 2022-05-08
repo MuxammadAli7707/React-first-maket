@@ -61,11 +61,12 @@
   font-size: 12px;
   line-height: 150%;
   color: #d1d1d7;
-  margin-right: 31px;
-  margin-left: 449px;
+  margin-right: 10px;
+  margin-left: 425px;
 }
-
-
+.site-language {
+  margin-right: 35px;
+}
 .select {
   background-color: #000;
   border: none;

@@ -27,7 +27,7 @@ function CardDesc () {
                   </div>
                 </div>
                 <div className="center">
-                  <a className="learn-acces active" href="#">Access className</a>
+                  <a className="learn-acces active" href="#">Access class</a>
                 </div>
               </li>
               <li className="learn-item">

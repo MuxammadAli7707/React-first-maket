@@ -1,5 +1,6 @@
 import './header.css';
-import logo from '../../imgs/sinauw.svg'
+import logo from '../../imgs/sinauw.svg';
+import glob from '../../imgs/globe.png'
 function Header () {
   return (
     <header className="site-header">
@@ -27,12 +28,13 @@ function Header () {
                 </li>
               </ul>
             </div>
-            <div className="site-language">
+            <div className="site-language row middle">
               <select className="eng" name="eng" id="Eng">
                 <option className="select" value="Eng">Eng</option>
                 <option className="select" value="Uzb">Uzb</option>
                 <option className="select" value="Rus">Rus</option>
               </select>
+              <img className='glob' src={glob} alt="glob" width="24" height="24" />
             </div>
             <a className="site-link" href="#">login</a>
           </div>
