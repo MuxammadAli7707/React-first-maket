@@ -29,9 +29,9 @@ function Header () {
             </div>
             <div className="site-language">
               <select className="eng" name="eng" id="Eng">
-                <option className="select" value="Eng">English</option>
-                <option className="select" value="Uzb">Russian</option>
-                <option className="select" value="Rus">Uzbek</option>
+                <option className="select" value="Eng">Eng</option>
+                <option className="select" value="Uzb">Uzb</option>
+                <option className="select" value="Rus">Rus</option>
               </select>
             </div>
             <a className="site-link" href="#">login</a>
