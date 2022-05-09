@@ -50,6 +50,11 @@
 .footer-link {
   color: #acabbf;
   font-size: 30px;
+  transition: all 0.4s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
 }
 
 .footer-item {
@@ -67,6 +72,12 @@
   line-height: 24px;
   color: rgba(255, 255, 255, 0.7);
   opacity: 0.6;
+  transition: all 0.4s ease;
+}
+
+.menu-link:hover {
+  color: #fff;
+  opacity: 1;
 }
 
 .site-footer {
